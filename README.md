@@ -2,6 +2,10 @@
 
 **Colibri.js** is a jQuery plugin to add simple Growl like notifications to your websites. Although the script functionalities are minimalist yet efficient, the look and feel of the notifications are fully customisable with CSS.
 
+## Dependencies
+
+As a jQuery plugin, Colibri.js requires jQuery 1.6+ to work smoothly.
+
 ## How-To-Use
 
 ### It's easy
