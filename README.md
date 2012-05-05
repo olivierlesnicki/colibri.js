@@ -21,6 +21,8 @@ As a jQuery plugin, Colibri.js requires jQuery 1.6+ to work smoothly.
 
 ### Default styles
 
+The default styles were heavily (and intentionally) inspired by [Twitter Bootstrap](http://twitter.github.com/bootstrap/) [Alerts](http://twitter.github.com/bootstrap/components.html#alerts) styles.
+
          // Success
          colibri('Well done! You successfully read this important alert message.', 'colibri-success');
 
