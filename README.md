@@ -1,39 +1,36 @@
-<h1>Colibri.js</h1>
+# Colibri.js
 
-<p><strong>Colibri.js</strong> is a jQuery plugin to add simple Growl like notifications to your websites. Although the script functionalities are minimalist yet efficient, the look and feel of the notifications are fully customisable with CSS.</p>
+**Colibri.js** is a jQuery plugin to add simple Growl like notifications to your websites. Although the script functionalities are minimalist yet efficient, the look and feel of the notifications are fully customisable with CSS.
 
-<h2>How-To-Use</h2>
+## How-To-Use
 
-<h3>It's easy</h3>
+### It's easy
 
-<ol>
-<li><p>Link to colibri.css <code>&lt;link href="colibri.css" rel="stylesheet"/&gt;</code></p></li>
-<li><p>Link to colibri.js <code>&lt;script src="colibri.js"&gt;&lt;/script&gt;</code></p></li>
-<li><p>Popup a notification</p>
+1. Link to colibri.css `<link href="colibri.css" rel="stylesheet"/>`
 
-<pre><code> // Only one line is required
- colibri('This is a message!');
-</code></pre></li>
-</ol>
+2. Link to colibri.js `<script src="colibri.js"></script>`
 
-<h3>Default styles</h3>
+3. Popup a notification
 
-<h4>Success</h4>
+         // Only one line is required
+         colibri('This is a notification!');
 
-<pre><code>     colibri('Well done! You successfully read this important alert message.', 'colibri-success');
-</code></pre>
+### Default styles
 
-<h4>Warning</h4>
+         // Success
+         colibri('Well done! You successfully read this important alert message.', 'colibri-success');
 
-<pre><code>     colibri('Warning! Best check yo self, you're not looking too good.', 'colibri-warning');
-</code></pre>
+         // Warning
+         colibri('Warning! Best check yo self, you're not looking too good.', 'colibri-warning');
 
-<h4>Nomenclature</h4>
+         // Error
+         colibri('Oh snap! Change a few things up and try submitting again.', 'colibri-error');
 
-<pre><code>     colibri('Oh snap! Change a few things up and try submitting again.', 'colibri-error');
-</code></pre>
+## Author
 
-<ul>
-<li>You'll notice that the default styles are (intentionally) heavily inspired by Twitter Bootstrap Alerts designs -</li>
-</ul>
+This plugin was carefully crafted in London, United Kingdom by Olivier Lesnicki [@swaggaguru](http://www.twitter.com/swaggaguru).
 
+## License
+
+Licensed under the MIT licenses:
+[http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)
